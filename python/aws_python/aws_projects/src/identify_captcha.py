@@ -8,4 +8,4 @@ photo = 'test.png'
 
 response = client.detect_text(Image={'S3Object':{'Bucket':bucket,'Name':photo}})
 
-print(response['TextDetections'][0]['DetectedText'])
+print(response['TextDetections'][0]['DetectedText']cmd)
