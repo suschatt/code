@@ -13,5 +13,5 @@ for x in ip.split('.'):
 	elif (int(x)<0 or int(x)>255):
 		print('Not a valid ip')
 		sys.exit()
-	
+
 print('Valid IP')
