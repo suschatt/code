@@ -3,7 +3,7 @@ from databaseutil import DBConnection
 from loadzipgeo import loadGeoData
 from fetchZillowData import loadZillowData
 
-quandl.ApiConfig.api_key = 'VGyu39wByYSFEE1hXsDj'
+quandl.ApiConfig.api_key = 'xxxx'
 
 ###Case Schiller Index
 def caseSchillerIndex():
