@@ -4,7 +4,7 @@ import json
 from pprint import  pprint
 import pandas as pd
 #quandl key
-quandl.ApiConfig.api_key = 'VGyu39wByYSFEE1hXsDj'
+quandl.ApiConfig.api_key = 'xxxx'
 #call indicator web service
 wsresponse = requests.get('https://s3.amazonaws.com/quandl-production-static/zillow/indicators.csv')
 #parse the indicators
